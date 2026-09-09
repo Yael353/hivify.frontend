@@ -61,16 +61,9 @@ export default function Pricing() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className=" bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-2xl mx-auto mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tighter text-gray-900">
-            Prislista
-          </h2>
-          <p className="text-xl text-gray-600 mt-4">
-            Hitta prispaketet som passar din communitys behov
-          </p>
-        </div>
+      
 
         <div className="flex flex-col md:flex-row items-center md:items-end justify-around gap-6 py-10 hover:shadow-2xs">
           {plans.map((plan) => {
