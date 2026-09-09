@@ -14,7 +14,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur-md bg-white/80 shadow-sm mb-20">
+    <header className="sticky top-0 z-50 backdrop-blur-md bg-white/80 shadow-sm">
       <div className="bg-black py-2.5 text-center">
         <div className="container mx-auto px-4">
           <p className="text-white/90 text-sm font-medium">

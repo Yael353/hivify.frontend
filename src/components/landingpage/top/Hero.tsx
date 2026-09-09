@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-3/4 bg-amber-400/5 rounded-full blur-3xl pointer-events-none overflow-hidden" />
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-50 h-50 bg-amber-300/5 rounded-full blur-3xl pointer-events-none overflow-hidden" />
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-4 relative z-10 my-20">
         <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-16">
           <div className="flex-1 text-left max-w-2xl">
             <h1 className="text-7xl md:text-9xl lg:text-9xl xl:text-7xl font-bold tracking-tighter leading-[1.1]">
